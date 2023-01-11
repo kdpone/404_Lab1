@@ -10,3 +10,5 @@ raw_site = 'https://raw.githubusercontent.com/kdpone/404_Lab1/master/req_script.
 r = req.get(raw_site)
 
 open('downloaded_raw_code.py', 'wb').write(r.content)
+
+print(r.text)
