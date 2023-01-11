@@ -2,4 +2,26 @@ Git and Github
 Q1) https://github.com/kdpone
 
 virtualenv
-Q2) 
+Q2) 2.25.1
+Q3) 2.28.1
+Q4) They are similar but the virtual environment has the term (venv) in the terminal
+
+curl
+Q5) Status: 301 Location: http://www.google.com/
+Q6) Status: 418 returned by curl -iL.
+    Using curl -iL http://www.google.com/teapot it returns "HTTP/1.1 418 I'm a Teapot"
+Q7) It added content under Form Contents header.
+            <H3>Form Contents:</H3>
+            <DL>
+            <DT>X: <i>&lt;type 'instance'&gt;</i>
+            <DD>MiniFieldStorage('X', 'Y')
+            </DL>
+    Where prior it had
+            <H3>Form Contents:</H3>
+            <P>No form fields.
+            <DL>
+            </DL>
+
+    This is useful for sending request and making changes on a webpage
+
+
